@@ -15,7 +15,7 @@ this.converter =this.converter.bind(this);
 }
 
 converter(){
-
+const response = api.get('convert?q=USD_BRL&compact=ultra&apiKey=187412e747a0d3ceec4f')
 }
 
     render() {
